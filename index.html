@@ -17,69 +17,64 @@
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- js -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+
 
 </head>
 
 <!-- NavBar -->
 <header>
-  <!-- #ffc107 warning color code -->
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <!-- logo bg-warning p-3 -->
-      <a class="navbar-brand " href="#"><i class="fa-solid fa-camera-retro fa-2xl" style="color: #000000;"></i> <span
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand " href="#"><i class="fa-solid fa-camera-retro fa-2xl" style="color: #000000;"></i> <span
           class=" font-weight-bold "> &naturals;Clicks</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent -ms">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <!-- nav items -->
-          <li class="nav-item ">
-            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link " href="#About">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Tutorials">Tutorials</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle " href="#Courses" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Courses
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown ">
-              <li><a class="dropdown-item" href="#Course1">Photoshop Online Course</a></li>
-              <li><a class="dropdown-item" href="#Course2">Complete Guide to Lightroom</a></li>
-              <li><a class="dropdown-item" href="#Course3">Guide to Studio Lighting</a></li>
-              <li><a class="dropdown-item" href="#Course4">Long Exposure Photography</a></li>
-              <li><a class="dropdown-item" href="#Course5">Portrait Retouching Course</a></li>
-              <li><a class="dropdown-item" href="#Course6">Fine Art Landscape photography</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#Other Courses">Other Courses</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Join NClicks">Join NClicks</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contacts">Contacts</a>
-          </li>
-
-        </ul>
-
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tutorials
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#Course1">Photoshop Online Course</a></li>
+                <li><a class="dropdown-item" href="#Course2">Complete Guide to Lightroom</a></li>
+                <li><a class="dropdown-item" href="#Course3">Guide to Studio Lighting</a></li>
+                <li><a class="dropdown-item" href="#Course4">Long Exposure Photography</a></li>
+                <li><a class="dropdown-item" href="#Course5">Portrait Retouching Course</a></li>
+                <li><a class="dropdown-item" href="#Course6">Fine Art Landscape photography</a></li>
+                <li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Other Courses</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Join NClicks">Join NClicks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacts">Contacts</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
       </div>
-    </div>
-  </nav>
-
-</header>
+    </nav>
+  </header>
 
 <body>
   <!-- Banner-Slider -->
@@ -97,6 +92,7 @@
 
         <img src="./Photography2.jpeg" class="d-block w-100 " alt="...">
         <div class="carousel-caption d-none d-md-block">
+          
           <h5>We Just Don't Show You The Great Photography</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis animi eveniet
             placeat, voluptate similique.</p>
@@ -237,7 +233,7 @@
 
 
   <!-- OUR Motive -->
-  <div class="card text-center bg-dark text-light ">
+  <div class="card text-center bg-dark text-light "style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGkibAVaXQ8rP5RHTS3L-Dgdjzkfs_XbzyHIOHX0eU3lS-bY0NKVelqlpGyL52wFvZrnk&usqp=CAU); background-repeat: no-repeat; background-size: cover;">
     <div class="card ">
       <!-- Featured -->
     </div>
@@ -332,7 +328,7 @@
                 <i class="fas fa-chart-area fa-3x mb-3"></i>
               </div>
               <div class="px-3 text-center pb-3">
-                <h5 class="text-uppercase font-weight-600">Long &nbsp; Exposure <br> Photography</h5>
+                <h5 class="text-uppercase font-weight-600"> Photoshop &nbsp; Online<br> Course</h5>
                 <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
                   deleniti et fugit iusto nesciunt.</p>
               </div>
@@ -347,7 +343,7 @@
                 <i class="fas fa-chart-area fa-3x mb-3"></i>
               </div>
               <div class="px-3 text-center pb-3">
-                <h5 class="text-uppercase font-weight-600">Long &nbsp; Exposure <br> Photography</h5>
+                <h5 class="text-uppercase font-weight-600"> Complete Guide to <br> Lightroom</h5>
                 <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
                   deleniti et fugit iusto nesciunt.</p>
               </div>
@@ -363,7 +359,7 @@
                 <i class="fas fa-chart-area fa-3x mb-3"></i>
               </div>
               <div class="px-3 text-center pb-3">
-                <h5 class="text-uppercase font-weight-600">Fine Art Landscape <br> photography</h5>
+                <h5 class="text-uppercase font-weight-600">Guide to Studio <br> Lighting</h5>
                 <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
                   deleniti et fugit iusto nesciunt.</p>
               </div>
@@ -521,6 +517,7 @@
               text is required purely to fill a space. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Debitis, esse?</p>
             <div class="pt-3 mt-3 border-top d-flex">
+              
               <img
                 src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbiUyMGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                 class="img-fluid avatar avatar-ex-sm rounded-pill mr-3 shadow" alt="man avatar" width="200"
@@ -575,6 +572,7 @@
   </div>
 
   <!-- contact us -->
+
   <section class="p-5 p-md-5 text-center text-lg-start shadow-1-strong rounded" style="
     background-image: url(https://rare-gallery.com/uploads/posts/1162833-landscape-digital-art-black-background-nature-collage-reflection-symmetry-poster-ART-color-screenshot-computer-wallpaper-modern-art.png);  background-repeat: no-repeat ; background-size:cover;
   ">
@@ -653,7 +651,7 @@
             class="fab fa-linkedin-in"></i></a>
 
         <!-- Github -->
-        <a class="btn btn-outline-warning btn-floating m-1" href="https://github.com/umaima-khilji" role="button"><i
+        <a class="btn btn-outline-warning btn-floating m-1" href="https://github.com/sawaira-dev" role="button"><i
             class="fab fa-github"></i></a>
       </section>
       <!-- Section: Social media -->
@@ -816,7 +814,7 @@
     <!-- Copyright -->
     <div class="text-center p-3 bg-dark" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2023 Copyright:
-      <a class="text-white" style="text-decoration: none;" href="https://smiu.edu.pk/">SMIuans.com</a>
+      <a class="text-white" style="text-decoration: none;" href="https://smiu.edu.pk/">Sawaira.com</a>
     </div>
     <!-- Copyright -->
   </footer>
@@ -826,6 +824,14 @@
 
   <!-- cdn -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+
+  <!-- <script src="https://cdnjs,cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"integrity="sha512-894YE6QWDI59HgZOReFYm4dnWc1Qt5NtvYSaNcOP+u1Tdvdihz0PPSiqn/+3e7o4EaG7TubfWGUrMQ=="crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <!-- 
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> -->
