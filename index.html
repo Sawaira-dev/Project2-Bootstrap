@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- css cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awsome cdn  -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<!-- NavBar -->
+<header>
+  <!-- #ffc107 warning color code -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <!-- logo bg-warning p-3 -->
+      <a class="navbar-brand " href="#"><i class="fa-solid fa-camera-retro fa-2xl" style="color: #000000;"></i> <span
+          class=" font-weight-bold "> &naturals;Clicks</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent -ms">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <!-- nav items -->
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Tutorials">Tutorials</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#Courses" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown ">
+              <li><a class="dropdown-item" href="#Course1">Photoshop Online Course</a></li>
+              <li><a class="dropdown-item" href="#Course2">Complete Guide to Lightroom</a></li>
+              <li><a class="dropdown-item" href="#Course3">Guide to Studio Lighting</a></li>
+              <li><a class="dropdown-item" href="#Course4">Long Exposure Photography</a></li>
+              <li><a class="dropdown-item" href="#Course5">Portrait Retouching Course</a></li>
+              <li><a class="dropdown-item" href="#Course6">Fine Art Landscape photography</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#Other Courses">Other Courses</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Join NClicks">Join NClicks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contacts">Contacts</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+<body>
+  <!-- Banner-Slider -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button> -->
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+
+        <img src="./Photography2.jpeg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>We Just Don't Show You The Great Photography</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis animi eveniet
+            placeat, voluptate similique.</p>
+          <p><a href="#" class="btn btn-warning p-2">Join NClicks</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./Photography3.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>We <span color="red">Teach You</span> How <span class="text text-warning">To Do It</span></h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam eius cupiditate a quo suscipit
+            fuga?</p>
+          <p><a href="btn" class="btn btn-warning p-2">Join NClicks</a></p>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+            <img src="./Photography3.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5> -->
+      <!-- <p>Some representative placeholder content for the third slide.</p> -->
+      <!-- </div> -->
+      <!-- </div> -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- about us -->
+  <!-- heading -->
+  <div class="container my-5">
+    <section>
+      <div class="text-center mb-5 col-md-10 mx-auto">
+        <h2 class="font-weight-bold display-4 text-capitalize fw-bold">About<span class="text-warning fw-bold ">
+            Us</span></h2>
+        <p class="mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores dolore, dolorum
+          error eveniet.</p>
+      </div>
+    </section>
+  </div>
+  <!-- Content -->
+  <div class="aboutus-section">
+    <div class="container">
+      <div class="row p-3">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="aboutus">
+            <h2 class="aboutus-title">Focus On</h2>
+            <p class="aboutus-text">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+              eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+            <p class="aboutus-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+              aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
+            <!-- <a class="aboutus-more" href="#">read more</a> -->
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <!-- <div class="col-lg-4 d-flex  mb-4 mb-lg-0"> -->
+          <img src="https://www.ollyknightphotography.co.uk/wp-content/uploads/2017/02/Digital-Photography-Course-8.jpg"
+            class="rounded img-fluid shadow-1" alt="woman avatar" width="800px" height="800px" />
+          <!-- </div> -->
+        </div>
+        <div class="col-md-5 col-sm-6 col-xs-12">
+          <div class="feature">
+            <div class="feature-box">
+              <div class="clearfix">
+                <div class="iconset">
+                  <span class="glyphicon glyphicon-cog icon"></span>
+                </div>
+                <div class="feature-content">
+                  <h4>Work with heart</h4>
+                  <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+                    enim. Aliquam lorem ante, dapibus in.</p>
+                </div>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="clearfix">
+                <div class="iconset">
+                  <span class="glyphicon glyphicon-cog icon"></span>
+                </div>
+                <div class="feature-content">
+                  <h4>Reliable services</h4>
+                  <p>Donec vitae sapien ut libero venenatis faucibu. Nullam quis ante. Etiam sit amet orci eget eros
+                    faucibus tincidunt</p>
+                </div>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="clearfix">
+                <div class="iconset">
+                  <span class="glyphicon glyphicon-cog icon"></span>
+                </div>
+                <div class="feature-content">
+                  <h4>Great support</h4>
+                  <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+                    enim. Aliquam lorem ante, dapibus in.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- about -->
+
+  <section id="about" class="about section-padding " style="width: 100%;">
+    <div class="container">
+      <div class="row p-3">
+        <!-- <div class="col-lg4 col-md-12 col-12">
+          <div class="about-img ">
+            <img src="https://www.ollyknightphotography.co.uk/wp-content/uploads/2017/02/Digital-Photography-Course-8.jpg" alt="" class="img-fluid rounded " style="width: 500px;">
+          </div>
+        </div> -->
+        <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+          <div class="about-text">
+            <h2>We Provide Best Quality <br> Services Ever</h2>
+            <blockquote class="blockquote">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nam obcaecati. Voluptate
+                molestiae modi reiciendis magnam exercitationem eum eos animi illum praesentium, adipisci
+                iusto accusamus excepturi repellat nobis nesciunt omnis nostrum explicabo unde assumenda
+                quibusdam quas. Qui quia aperiam numquam? Fugit asperiores repudiandae quidem quisquam
+                laborum nihil veritatis rem libero. </p>
+
+              <a href="btn" class="btn btn-warning text-white rounded-pill my-4 px-4 py-2">Learn More</a>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- OUR Motive -->
+  <div class="card text-center bg-dark text-light ">
+    <div class="card ">
+      <!-- Featured -->
+    </div>
+    <div class="card-body p-5">
+      <blockquote class="blockquote">
+        <h5 class="font-weight-bold display-5 text-capitalize fw-bold "> Motive</h5>
+      </blockquote>
+
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nam obcaecati. Voluptate
+        molestiae modi reiciendis magnam exercitationem eum eos animi illum praesentium, adipisci
+        iusto accusamus excepturi repellat nobis nesciunt omnis nostrum explicabo unde assumenda
+        quibusdam quas. Qui quia aperiam numquam? Fugit asperiores repudiandae quidem quisquam
+        laborum nihil veritatis rem libero. </p>
+      </blockquote>
+      <!-- <a href="#" class="btn btn-warning">Learn More</a> -->
+    </div>
+    <!-- <div class="card-footer text-body-secondary">
+          2 days ago
+        </div> -->
+  </div>
+
+
+
+  <!-- services -->
+  <div class="container my-5">
+    <section>
+      <div class="text-center mb-5 col-md-10 mx-auto">
+        <h2 class="font-weight-bold display-4 text-capitalize">Our <span class=" fw-bold">Services</span></h2>
+        <p class="mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores dolore, dolorum
+          error eveniet molestiae necessitatibus officiis possimus praesentium quas.</p>
+      </div>
+      <div class="row">
+        <!-- see more -->
+        <div class="col-md-4 my-4">
+          <a href="#" class="text-dark">
+            <div class="px-3 py-5">
+              <span class="text-uppercase">Services</span>
+              <h3 class="text-capitalize my-2 font-weight-600">The Courses We Offer</h3>
+              <button class="btn my-4 px-4 py-2 rounded-pill text-white bg-warning">See More</button>
+            </div>
+          </a>
+        </div>
+        <!-- course1 -->
+        <div class="col-md-4 my-4">
+          <a href="#" class="text-light">
+            <div class="px-3 py-5 bg-dark rounded"
+              style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCjNeisv3KdsAsJNXOYy7zK-_Bky_7uChHQw&usqp=CAU); background-repeat: no-repeat ; background-size:cover;">
+              <div class="text-center">
+                <i class="fas fa-chart-area fa-3x mb-3"></i>
+              </div>
+              <div class="px-3 text-center pb-3">
+                <h5 class="text-uppercase font-weight-600">Long &nbsp; Exposure <br> Photography</h5>
+                <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
+                  deleniti et fugit iusto nesciunt.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- course2 -->
+        <div class="col-md-4 my-4">
+          <a href="#" class="text-light">
+            <div class="px-3 py-5 bg-dark text-white rounded">
+              <div class="text-center">
+                <i class="fas fa-chart-area fa-3x mb-3"></i>
+              </div>
+              <div class="px-3 text-center pb-3">
+                <h5 class="text-uppercase font-weight-600">Fine Art Landscape <br> photography</h5>
+                <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
+                  deleniti et fugit iusto nesciunt.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Services row2 -->
+  <div class="container my-5">
+    <section>
+      <!-- <div class="text-center mb-5 col-md-10 mx-auto">
+        <h2 class="font-weight-bold display-4 text-capitalize">Our <span class="text-warning fw-bold">Services</span></h2>
+        <p class="mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores dolore, dolorum
+          error eveniet molestiae necessitatibus officiis possimus praesentium quas.</p>
+      </div> -->
+      <div class="row">
+        <!-- course3 -->
+        <div class="col-md-4 my-4">
+          <a href="#" class="text-light">
+            <div class="px-3 py-5 bg-dark rounded"
+              style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCjNeisv3KdsAsJNXOYy7zK-_Bky_7uChHQw&usqp=CAU); background-repeat: no-repeat ; background-size:cover;">
+              <div class="text-center">
+                <i class="fas fa-chart-area fa-3x mb-3"></i>
+              </div>
+              <div class="px-3 text-center pb-3">
+                <h5 class="text-uppercase font-weight-600">Long &nbsp; Exposure <br> Photography</h5>
+                <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
+                  deleniti et fugit iusto nesciunt.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- course4 -->
+        <div class="col-md-4 my-4">
+          <a href="#" class="text-light">
+            <div class="px-3 py-5 bg-dark rounded">
+              <div class="text-center">
+                <i class="fas fa-chart-area fa-3x mb-3"></i>
+              </div>
+              <div class="px-3 text-center pb-3">
+                <h5 class="text-uppercase font-weight-600">Long &nbsp; Exposure <br> Photography</h5>
+                <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
+                  deleniti et fugit iusto nesciunt.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- course5 -->
+        <div class="col-md-4 my-4">
+          <a href="#" class="text-light">
+            <div class="px-3 py-5 bg-dark text-white rounded"
+              style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCjNeisv3KdsAsJNXOYy7zK-_Bky_7uChHQw&usqp=CAU); background-repeat: no-repeat ; background-size:cover;">
+              <div class="text-center">
+                <i class="fas fa-chart-area fa-3x mb-3"></i>
+              </div>
+              <div class="px-3 text-center pb-3">
+                <h5 class="text-uppercase font-weight-600">Fine Art Landscape <br> photography</h5>
+                <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
+                  deleniti et fugit iusto nesciunt.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- testemonials1 -->
+  <div class="container my-5">
+    <section>
+      <div class="text-center mb-5 col-md-10 mx-auto">
+        <h2 class="font-weight-bold display-4 text-capitalize"><span class="text-warning fw-bold ">Testemonials</span>
+        </h2>
+        <p class="mx-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores dolore, dolorum
+          error eveniet molestiae necessitatibus officiis possimus praesentium quas.</p>
+      </div>
+    </section>
+  </div>
+
+
+  <section class="p-5 p-md-5 text-center text-lg-start shadow-1-strong rounded" style="
+    background-image: url(https://pe-images.s3.amazonaws.com/photo-effects/cc/vertical-collage/photoshop-vertical-photo-collage.jpg);  background-repeat: no-repeat ; background-size:cover;
+  ">
+    <!-- https://media.istockphoto.com/id/1191154632/photo/black-gold-background-gradient-texture-soft-golden-with-light-technology-diagonal-gray-and.jpg?b=1&s=170667a&w=0&k=20&c=k_4uP2TAZES7MVEJPUcD9KUVSuv87oYOGUgbLS5PynM=  -->
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-10">
+        <div class="card">
+          <div class="card-body m-3">
+            <div class="row">
+              <div class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.webp"
+                  class="rounded-circle img-fluid shadow-1" alt="woman avatar" width="200" height="200" />
+              </div>
+              <div class="col-lg-8">
+                <p class="text-muted fw-light mb-4">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quam sapiente
+                  molestiae numquam quas, voluptates omnis nulla ea odio quia similique
+                  corrupti magnam.
+                </p>
+                <p class="fw-bold lead mb-2"><strong>Anna Smith</strong></p>
+                <p class="fw-bold text-muted mb-0">Exposure Photography Course</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonial2 -->
+  <div class="container my-5">
+
+  </div>
+
+  <section class="p-5 p-md-5 text-center text-lg-start shadow-1-strong rounded" style="
+    background-image: url(https://rare-gallery.com/uploads/posts/1162833-landscape-digital-art-black-background-nature-collage-reflection-symmetry-poster-ART-color-screenshot-computer-wallpaper-modern-art.png);  background-repeat: no-repeat ; background-size:cover;
+  ">
+    <!-- https://media.istockphoto.com/id/1191154632/photo/black-gold-background-gradient-texture-soft-golden-with-light-technology-diagonal-gray-and.jpg?b=1&s=170667a&w=0&k=20&c=k_4uP2TAZES7MVEJPUcD9KUVSuv87oYOGUgbLS5PynM=  -->
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-10">
+        <div class="card">
+          <div class="card-body m-3">
+            <div class="row">
+              <div class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                <img src="https://newprofilepic2.photo-cdn.net//assets/images/article/profile.jpg"
+                  class="rounded-circle img-fluid shadow-1" alt="woman avatar" width="200" height="200" />
+              </div>
+              <div class="col-lg-8">
+                <p class="text-muted fw-light mb-4">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quam sapiente
+                  molestiae numquam quas, voluptates omnis nulla ea odio quia similique
+                  corrupti magnam.
+                </p>
+                <p class="fw-bold lead mb-2"><strong>Marsaleen</strong></p>
+                <p class="fw-bold text-muted mb-0">Fine Art Landscape Photography Course</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- blogs -->
+  <div class="container mt-100 mt-60 p-5">
+    <div class="row">
+      <div class="col-12 text-center  ">
+        <div class="section-title mb-4 pb-2 ">
+          <h4 class="title mb-4 fw-bold">Latest Blog <span class="text-warning">&amp;</span> News</h4>
+          <p class="text-muted para-desc mx-auto mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+            animi fuga amet doloremque debitis aliquam?</p>
+        </div>
+      </div>
+      <!--end col-->
+    </div>
+    <!--end row-->
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mt-4 pt-2">
+        <div class="blog-post rounded border">
+          <div class="blog-img d-block overflow-hidden position-relative">
+            <img
+              src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1vbmV5JTIwdmlhJTIwcGhvdG9ncmFwaHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              class="img-fluid rounded-top" alt="">
+            <div class="overlay rounded-top bg-dark"></div>
+            <div class="post-meta">
+              <a href="#" class="text-dark d-block text-right p-2 "><i class="fa-solid fa-heart"
+                  style="color: #000000;">1K &nbsp;</i><i class="fa-solid fa-eye" style="color: #0a0a0a;"> 1M</i></a>
+              <a href="btn" class="btn btn-warning text-white rounded-pill my-4 px-4 py-2">Learn More</a>
+            </div>
+          </div>
+          <div class="content p-3">
+            <small class="text-muted p float-right">1st April, 23</small>
+            <small><a href="#" class="text-primary">Marketing</a></small>
+            <h4 class="mt-2"><a href="#" class="text-dark title">Quick guide on business with friends.</a></h4>
+            <p class="text-muted mt-2">There is now an abundance of readable dummy texts. These are usually used when a
+              text is required purely to fill a space.</p>
+            <div class="pt-3 mt-3 border-top d-flex">
+              <img
+                src="https://media.istockphoto.com/id/1179304314/photo/young-handsome-multi-ethnic-man-against-black-background-in-black-and-white-stock-photo.jpg?s=612x612&w=0&k=20&c=9SZ0Lf-8eMZMtrlJwvTasttrDc7uicH6yF7x8eWGoxE="
+                class="img-fluid avatar avatar-ex-sm rounded-pill mr-3 shadow" alt="man avatar" width="200"
+                height="200">
+              <div class="author mt-2">
+                <h6 class="mb-0"><a href="#Name" class="text-dark name">Lisa Marvel</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end blog post-->
+      </div>
+      <!--end col-->
+
+      <div class="col-lg-4 col-md-6 mt-4 pt-2">
+        <div class="blog-post rounded border ">
+          <div class="blog-img d-block overflow-hidden position-relative">
+            <img
+              src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNhbWVyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              class="img-fluid rounded-top" alt="">
+            <div class="overlay rounded-top bg-dark"></div>
+            <div class="post-meta">
+              <a href="#" class="text-dark d-block text-right p-2"><i class="fa-solid fa-heart"
+                  style="color: #000000;">1K &nbsp;</i><i class="fa-solid fa-eye" style="color: #0a0a0a;"> 1M</i></a>
+              <a href="btn" class="btn btn-warning text-white rounded-pill my-4 px-4 py-2">Learn More</a>
+            </div>
+          </div>
+          <div class="content p-3">
+            <small class="text-muted p float-right">1st April, 23</small>
+            <small><a href="#" class="text-primary">Event</a></small>
+            <h4 class="mt-2"><a href="#" class="text-dark title">Become more money-minded</a></h4>
+            <p class="text-muted mt-2">There is now an abundance of readable dummy texts. These are usually used when a
+              text is required purely to fill a space. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Debitis, esse?</p>
+            <div class="pt-3 mt-3 border-top d-flex">
+              <img
+                src="https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbiUyMGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                class="img-fluid avatar avatar-ex-sm rounded-pill mr-3 shadow" alt="man avatar" width="200"
+                height="200">
+              <div class="author mt-2">
+                <h6 class="mb-0"><a href="#Name" class="text-dark name">Joya Aafri</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end blog post-->
+      </div>
+      <!--end col-->
+
+      <div class="col-lg-4 col-md-6 mt-4 pt-2">
+        <div class="blog-post rounded border">
+          <div class="blog-img d-block overflow-hidden position-relative">
+            <img
+              src="https://images.unsplash.com/photo-1545861163-d75d945d8dd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3R1ZGlvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              class="img-fluid rounded-top" alt="">
+            <div class="overlay rounded-top bg-dark"></div>
+            <div class="post-meta">
+              <a href="#" class="text-dark d-block text-right p-2"><i class="fa-solid fa-heart"
+                  style="color: #000000;">1K &nbsp;</i><i class="fa-solid fa-eye" style="color: #0a0a0a;"> 1M</i></a>
+
+              <a href="btn" class="btn btn-warning text-white rounded-pill my-4 px-4 py-2 ">Learn More</a>
+            </div>
+          </div>
+          <div class="content p-3">
+            <small class="text-muted p float-right">1st April, 23</small>
+            <small><a href="#" class="text-primary">Software</a></small>
+            <h4 class="mt-2"><a href="javascript:void(0)" class="text-dark title">Quick guide on business with
+                friends.</a></h4>
+            <p class="text-muted mt-2">There is now an abundance of readable dummy texts. These are usually used when a
+              text is required purely to fill a space.</p>
+            <div class="pt-3 mt-3 border-top d-flex">
+              <img
+                src="https://images.unsplash.com/photo-1558730234-d8b2281b0d00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1hbiUyMGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHx8MHx8&w=1000&q=80"
+                class="img-fluid avatar avatar-ex-sm rounded-pill mr-3 shadow" alt="man avatar" width="200"
+                height="200">
+              <div class="author mt-2">
+                <h6 class="mb-0"><a href="#Name" class="text-dark name">Martin Sobhe</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end blog post-->
+      </div>
+      <!--end col-->
+    </div>
+    <!--end row-->
+  </div>
+
+  <!-- contact us -->
+  <section class="p-5 p-md-5 text-center text-lg-start shadow-1-strong rounded" style="
+    background-image: url(https://rare-gallery.com/uploads/posts/1162833-landscape-digital-art-black-background-nature-collage-reflection-symmetry-poster-ART-color-screenshot-computer-wallpaper-modern-art.png);  background-repeat: no-repeat ; background-size:cover;
+  ">
+  <div class="container contact bg-dark text-light p-5" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCjNeisv3KdsAsJNXOYy7zK-_Bky_7uChHQw&usqp=CAU); background-repeat: no-repeat ; background-size:cover;">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="contact-info">
+          
+          <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" />
+          <h2 class="text-dark fw-bold">Contact Us</h2>
+          <h4 class="text-dark">We would love to hear from you !</h4>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="contact-form">
+          <div class="form-group">
+            <label class="control-label col-sm-2 text-dark" for="fname">First Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2 text-dark" for="lname">Last Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2 text-dark" for="email">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2 text-dark" for="comment">Comment:</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-dark text-light rounded-pill my-4 px-4 py-2">Submit</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <hr>
+  <div class="container" p-4></div>
+  <footer class="bg-dark text-center text-white"
+    style="background-image: url(https://img.freepik.com/premium-photo/vintage-camera-as-wallpaper_39155-40.jpg); background-repeat: no-repeat; background-size: cover;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-warning btn-floating m-1" href="https://github.com/umaima-khilji" role="button"><i
+            class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-warning btn-warning text-muted fw-bold mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-warning fw-bold">Get In Touch</h5>
+            <br>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white " style="text-decoration: none;"><i
+                    class="fa-solid fa-square-phone fa-2xl" style="color: #fcbf07;">&nbsp;</i>+32653478880</a><br><br>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;"><i
+                    class="fa-solid fa-map-location-dot fa-2xl" style="color: #ffc107;">&nbsp;</i> NClicks Address </a>
+              </li>
+              <li>
+                <br>
+                <a href="#!" class="text-white" style="text-decoration: none;">Aiwan-e-Tijarat Rd, Seari Quarters,
+                  Karachi, Karachi City, Sindh 74000</a>
+              </li>
+              <!-- <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>  -->
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+            <h5 class="text-uppercase text-warning fw-bold">Map</h5>
+            <br>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14481.52358245735!2d67.0039162!3d24.8508373!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e03e02fabc1%3A0x96c129db3ee25a57!2sSindh%20Madrasa-tul-Islam%20University%2C%20City%20Campus%2C%20Karachi!5e0!3m2!1sen!2s!4v1680414618322!5m2!1sen!2s"
+                    width="260" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+              </li>
+              <!-- <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul> -->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-warning fw-bold">Shortcuts</h5>
+            <br>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Home</a>
+                <br><br>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">About</a>
+                <br><br>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Tutorials</a>
+                <br><br>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Courses</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase"></h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <br><br>
+                <a href="#!" class="text-white" style="text-decoration: none;">Blogs</a>
+                <br><br>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Testimonials</a>
+
+              </li>
+              <!-- <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li> -->
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-dark" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" style="text-decoration: none;" href="https://smiu.edu.pk/">SMIuans.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+  <!-- cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- 
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> -->
+
+</body>
+
+</html>
